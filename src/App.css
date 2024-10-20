@@ -1,0 +1,114 @@
+/* src/App.css */
+
+/* 기본 스타일 */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #007BFF;
+}
+
+.login-btn button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn button:hover {
+  background-color: #0056b3;
+}
+
+/* 카테고리 스타일 */
+.category-nav {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.category-nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.category-nav ul li {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.category-nav ul li:hover {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+}
+
+/* 게시판 스타일 */
+.board {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.board h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-title {
+  flex: 2;
+  font-size: 18px;
+  text-align: left;
+  color: #007BFF;
+}
+
+.post-likes, .post-views {
+  flex: 1;
+  font-size: 16px;
+  text-align: right;
+  color: #555;
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+  margin-top: 50px;
+}
